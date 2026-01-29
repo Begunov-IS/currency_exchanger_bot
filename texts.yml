@@ -1,0 +1,26 @@
+texts:
+  commands: 
+    start:
+      Привет, %{name}, напиши валюту ИЗ которой хочешь перевести
+
+    stop:
+      Пока, %{name}
+
+
+  steps:
+    waiting_from_currency:
+      Ты выбрал валюту %{from_currency}, напиши СУММУ валюты ИЗ которой хочешь перевести
+      
+    waiting_from_currency_value:
+      Ты хочешь перевести %{from_currency_value} %{from_currency}, напиши валюту В которую хочешь перевести данную сумму
+
+    waiting_to_currency:
+      Ты выбрал валюту %{to_currency}. Отлично! Начинаю перевод валюты
+
+    exchange_processing:
+      Курс %{to_currency} относительно %{from_currency} сейчас равен %{rate}. Твоя сумма %{from_currency_value} %{from_currency} будет равна %{output_currency_value} %{to_currency}
+
+    exchange_done:
+      Я закончил перевод валюты, хочешь перевести еще какую-то валюту?
+
+
